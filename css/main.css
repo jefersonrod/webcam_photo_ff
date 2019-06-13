@@ -1,0 +1,42 @@
+
+.pagina{
+    background-color: rgb(71, 75, 74);
+}
+
+p{
+    color: white;
+}
+h1{
+    color: white;
+}
+.btn-snap:hover {
+    opacity: 0.5;
+}
+
+.btn-cancel:hover {
+    opacity: 0.3;
+}
+
+.btn-snap:active {
+    margin: 1px 1px 0;
+    box-shadow: 1px 1px 1px #000;
+    background-image: linear-gradient(to top, #f4f5f5, #dfdddd);
+}
+
+.btn-cancel:active {
+    margin: 1px 1px 0;
+    box-shadow: 1px 1px 1px #000;
+    background-image: linear-gradient(to top, #f4f5f5, #dfdddd);
+}
+
+canvas {
+    border-radius: 50%;
+}
+
+video {
+    border-radius: 50%;
+}
+
+.pagina{  
+  max-width: 800px;
+}
